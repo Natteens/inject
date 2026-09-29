@@ -1,0 +1,10 @@
+{
+  "name": "com.natteens.inject.editor",
+  "rootNamespace": "DependencyInjection.Editor",
+  "references": [
+    "com.natteens.inject"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

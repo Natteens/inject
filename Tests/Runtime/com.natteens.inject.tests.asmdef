@@ -1,0 +1,15 @@
+{
+  "name": "com.natteens.inject.tests",
+  "rootNamespace": "DependencyInjection.Tests",
+  "references": [
+    "com.natteens.inject"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

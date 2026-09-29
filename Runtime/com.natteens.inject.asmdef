@@ -1,0 +1,5 @@
+{
+  "name": "com.natteens.inject",
+  "rootNamespace": "DependencyInjection",
+  "autoReferenced": true
+}
