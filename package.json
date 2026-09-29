@@ -1,6 +1,6 @@
 {
   "name": "com.natteens.inject",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Inject",
   "description": "Lightweight scene dependency injection for Unity.",
   "unity": "6000.3",
