@@ -118,7 +118,7 @@ namespace DependencyInjection {
                     injectMethods.Add(new InjectMethod { Method = method, Parameters = paramTypes, Optional = inject.Optional });
                 }
 
-                if (Attribute.IsDefined(method, typeof(ProvideAttribute)) && method.ReturnType != typeof(void) && method.GetParameters().Length == 0) {
+                if (Attribute.IsDefined(method, typeof(ProvideAttribute)) && method.ReturnType != typeof(void)) {
                     provideMethods.Add(method);
                 }
             }

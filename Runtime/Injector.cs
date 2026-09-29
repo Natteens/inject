@@ -331,9 +331,7 @@ namespace DependencyInjection {
 
         public bool TryResolve(Type type, out object value) {
             if (registry.TryGetValue(type, out var entry)) {
-                if ((entry.Instance is Object unityInstance && unityInstance == null)
-                    || (!ReferenceEquals(entry.Owner, null) && entry.Owner == null)
-                    || (entry.Scene.IsValid() && !entry.Scene.isLoaded)) {
+                if (entry.Instance is Object unityInstance && unityInstance == null) {
                     registry.Remove(type);
                     value = null;
                     return false;
